@@ -9,4 +9,6 @@ def solution(participant, completion):
         d[j] -= 1  # 이름 한명씩 빼주기
     result = [k for k, v in d.items() if v>0]  # value가 1인 선수 찾기
     answer = result[0]
+    print(result)
+    print(answer)
     return answer
