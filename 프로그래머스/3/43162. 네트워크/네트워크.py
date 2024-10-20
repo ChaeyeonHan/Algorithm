@@ -33,3 +33,7 @@ def solution(n, computers):
             dfs(computers, i, n)
             cnt += 1
     return cnt
+            
+    
+    
+    
